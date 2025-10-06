@@ -27,7 +27,7 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 
 **Filtrado pasabanda:** Se compone con la union de un filtro pasa alto y uno pasa bajo, en el que su función es permitir el paso de ciertas frecuencias localizadas dentro de un ancho de banda determinado y atenuar las que se encuentran fuera del mismo.
 
-<img width="300" height="50" alt="image" src="https://github.com/user-attachments/assets/346399a4-308b-45c6-a15d-9cbafbd37a56" />
+<img width="394" height="197" alt="image" src="https://github.com/user-attachments/assets/346399a4-308b-45c6-a15d-9cbafbd37a56" />
 
 
 **Medición de Jitter:** Esta operación es importante para el análisis de la calidad vocal, donde se identifican las variaciones en la frecuencia fundamental, lo que puede indicar enfermedades en las cuerdas vocales. Ademas, esta medición puede ayudar a diferenciar de una voz distorsionada o robotizada.
@@ -38,7 +38,7 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 # 5. Adquisicón de la señal.
 Para adquirir las señales de la voz, se hizo mediante la grabación de un audio de voz de aproximadamente 5 segundos y se guardo en un formato .wav (Waveform Audio File Format), el cual es un formato de audio digital para almacenar sonido. Seguido de esto se importó el archivo en python para visualizar la señal de la voz.
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/1acd61dd-b28c-4427-b0fa-9996e38127f9" />
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/1acd61dd-b28c-4427-b0fa-9996e38127f9" />
 
 # 6. Análisis de resultados.
 # 7. Conclusiones.
