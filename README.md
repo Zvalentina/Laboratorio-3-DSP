@@ -20,14 +20,14 @@ La presente práctica tiene como objetivos:
 # 2. Metodología del experimento.
 La presente práctica se hizo empleando técnicas como el cálculo de la transformada de Fourier para cada señal de voz masculina y femenina, para visualizarla en el dominio de la frecuencia. Además, se aplicó un filtro pasabanda para una señal de voz de un hombre y una mujer, con el objetivo de visualizar la señal con menor ruido y finalmente, se hizo la medición de Jitter y Shimmer para determinar si una voz es patológica.
 
-<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/ce5f70f6-3188-4bf7-94d7-efd6e6b5b389" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/ce5f70f6-3188-4bf7-94d7-efd6e6b5b389" />
 
 # 3. Marco Conceptual.
 **Transformada de Fourier:** Es una operación matemática de gran importancia para el procesamiento digital de señales, ya que nos permite descomponer una señal que se encuentra en el dominio del tiempo al dominio de la frecuencia, revelando los componentes sinusoidales de diferentes frecuencias.
 
 **Filtrado pasabanda:** Se compone con la union de un filtro pasa alto y uno pasa bajo, en el que su función es permitir el paso de ciertas frecuencias localizadas dentro de un ancho de banda determinado y atenuar las que se encuentran fuera del mismo.
 
-<img width="394" height="127" alt="image" src="https://github.com/user-attachments/assets/346399a4-308b-45c6-a15d-9cbafbd37a56" />
+<img width="300" height="50" alt="image" src="https://github.com/user-attachments/assets/346399a4-308b-45c6-a15d-9cbafbd37a56" />
 
 
 **Medición de Jitter:** Esta operación es importante para el análisis de la calidad vocal, donde se identifican las variaciones en la frecuencia fundamental, lo que puede indicar enfermedades en las cuerdas vocales. Ademas, esta medición puede ayudar a diferenciar de una voz distorsionada o robotizada.
