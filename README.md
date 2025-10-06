@@ -27,4 +27,11 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 
 **Medición de Jitter:** Esta operación es importante para el análisis de la calidad vocal, donde se identifican las variaciones en la frecuencia fundamental, lo que puede indicar enfermedades en las cuerdas vocales. Ademas, esta medición puede ayudar a diferenciar de una voz distorsionada o robotizada.
 
-**Medición de Shimmer:** 
+**Medición de Shimmer:** Este tipo de operaciones sirve para identificar y cuantificar las variaciones en la amplitud de la señal de la voz, siendo importante para diagnosticar patologías vocales, como por ejemplo que ellas no se juntan correctamente. El aumento en la medición de Shimmer puede suponer una voz áspera o temblorosa.
+
+# 4. Diagramas de flujo.
+# 5. Adquisicón de la señal.
+Para adquirir las señales de la voz, se hizo mediante la grabación de un audio de voz de aproximadamente 5 segundos y se guardo en un formato .wav (Waveform Audio File Format), el cual es un formato de audio digital para almacenar sonido. Seguido de esto se importó el archivo en python para visualizar la señal de la voz.
+# 6. Análisis de resultados.
+# 7. Conclusiones.
+# 8. Aplicaciones biomédicas.
