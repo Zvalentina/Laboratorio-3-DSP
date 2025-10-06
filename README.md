@@ -43,6 +43,7 @@ Para adquirir las señales de la voz, se hizo mediante la grabación de un audio
 # 6. Análisis de resultados.
 # 7. Conclusiones.
 # 8. Aplicaciones biomédicas.
+<img width="960" height="417" alt="image" src="https://github.com/user-attachments/assets/c6bdae11-5ec9-4a7c-9b2a-f7dac163e382" />
 
 El análisis espectral de la voz tiene importantes aplicaciones biomédicas, ya que permite estudiar las características acústicas y fisiológicas del sistema fonador para evaluar su funcionamiento, a partir del estudio de la frecuencia fundamental, el brillo espectral, la intensidad, el jitter y el shimmer ,y así caracterizar la calidad y estabilidad vocal. Estas mediciones se emplean en la ingeniería biomédica para el diagnóstico y seguimiento de alteraciones laríngeas, como disfonías, parálisis de cuerdas vocales o lesiones nodulares, así como en la detección de trastornos neurológicos que afectan el control motor del habla, de esta manera este análisis se utiliza en la rehabilitación fonoaudiológica, en la validación de prótesis fonatorias y en el desarrollo de sistemas que permiten el monitoreo vocal. 
 También se puede dar un enfoque en la tecnología ya esta técnica tiene una relevancia en la biometría y en el diseño de interfaces basadas en las señales detectadas por la voz, permitiendo así un desarrollo de herramientas que no sean invasivas para el monitoreo y análisis de las señales.
