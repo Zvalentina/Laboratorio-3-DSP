@@ -38,7 +38,7 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 # 5. Adquisicón de la señal.
 Para adquirir las señales de la voz, se hizo mediante la grabación de un audio de voz de aproximadamente 5 segundos y se guardo en un formato .wav (Waveform Audio File Format), el cual es un formato de audio digital para almacenar sonido. Seguido de esto se importó el archivo en python para visualizar la señal de la voz.
 
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/1acd61dd-b28c-4427-b0fa-9996e38127f9" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1acd61dd-b28c-4427-b0fa-9996e38127f9" />
 
 # 6. Análisis de resultados.
 # 7. Conclusiones.
