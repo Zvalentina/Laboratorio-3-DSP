@@ -1,1 +1,1 @@
-# Análisis espectral de la voz
+# ANÁLISIS ESPECTRAL DE LA VOZ
