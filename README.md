@@ -40,6 +40,58 @@ Para adquirir las señales de la voz, se hizo mediante la grabación de un audio
 
 <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/1acd61dd-b28c-4427-b0fa-9996e38127f9" />
 
+
+**parte C**
+Tras mirar las seis señales de voz (tres femeninas y tres masculinas) se puede ver  diferencias entre los parámetros  de ambos grupos.
+
+**Comparación de la frecuencia fundamental.**
+Las voces femeninas presentan frecuencias fundamentales  en el rango de 180 a 250 Hz mientras que las masculinas se ubican entre 90 y 140 Hz. Esta diferencia se debe a que las cuerdas vocales de las mujeres son más cortas y ligeras, lo que produce vibraciones más rápidas y por esto tonos más agudos en contraste las cuerdas vocales masculinas son más largas y gruesas  generando una frecuencia fundamental más baja.
+
+**Diferencias en brillo y frecuencia media.**
+El brillo (energía relativa en frecuencias altas) fue mayor en las voces femeninas mostrando picos más definidos y una mayor densidad de armónicos en la región superior a los 1500 Hz.
+Las voces masculinas mostraron menos brillo concentrando la energía en frecuencias graves lo que se asocia con un timbre más oscuro y menos resonante.
+
+**Intensidad y energía total.**
+La intensidad varió ligeramente según el volumen de grabación pero en promedio no se observaron diferencias significativas entre géneros sin embargo se notó que las señales femeninas tendían a una mayor variación de amplitud mientras que las masculinas fueron más estables.
+
+**Análisis de estabilidad vocal (Jitter y Shimmer).**
+Los parámetros de estabilidad temporal reflejan la regularidad en la vibración de las cuerdas vocales:
+
+El Jitter relativo (%) fue levemente mayor en algunas voces femeninas (≈ 0.8–1.0%), lo cual indica pequeñas fluctuaciones en la frecuencia fundamental.
+El Shimmer relativo (%) fue más alto en las mujeres (≈ 3–4%) que en los hombres (≈ 2–3%), evidenciando mayor variabilidad en la amplitud de los ciclos glóticos.
+
+Estos resultados son consistentes con estudios fisiológicos que indican que las mujeres tienden a presentar mayor variabilidad acústica debido a diferencias anatómicas y hormonales.
+
+**Interpretación general**
+En conjunto las voces femeninas presentan mayor frecuencia fundamental y brillo menor estabilidad de amplitud y frecuencia y espectros  en armónicos altos y en las voces masculinas en cambio tenen frecuencias más bajas menor brillo y una mayor estabilidad temporal lo cual se traduce en un timbre más uniforme.
+
 # 6. Análisis de resultados.
+
+Se analizaron seis señales de voz (tres femeninas y tres masculinas) grabadas en formato .wav con una frecuencia de muestreo de 44.1 kHz y una duración promedio de 5 segundos a  continuacion se presentan los hallazgos más relevantes del procesamiento en el dominio del tiempo y la frecuencia:
+
+**Transformada de Fourier (FFT).**
+Las gráficas en el dominio de la frecuencia mostraron una distribución característica entre los dos grupos:
+Las voces femeninas presentaron frecuencias fundamentales  más altas situadas entre 180 Hz y 250 Hz lo que se muestra en un timbre más agudo las voces masculinas mostraron un promedio entre 90 Hz y 140 Hz evidenciando un espectro más concentrado en bajas frecuencias lo cual se asocia a un tono más grave el cálculo de la frecuencia media y el brillo permitió identificar que las señales femeninas poseen una mayor energía  por encima de los 1500 Hz mientras que las masculinas concentran la energía por debajo de este rango la energía totalvarió ligeramente entre sujetos influenciada por el volumen y la distancia al micrófono pero sin alterar las tendencias espectrales observadas.
+
+**Filtrado pasabanda FIR**
+Se implementó un filtro FIR pasabanda con las siguientes bandas
+Mujeres: 150–500 Hz  Hombres: 80–400 Hz.
+El filtrado permitió eliminar el ruido de baja y alta frecuencia manteniendo únicamente la banda donde se concentra la voz las señales filtradas mostraron una reducción notable de interferencias y un contorno de onda más regular lo que facilita la detección de picos y cruces por cero en etapas posteriores (Jitter y Shimmer).
+
+**Medición de Jitter y Shimmer**
+El Jitter mide la variación en la frecuencia fundamental entre ciclos consecutivos mientras que el Shimmer cuantifica las variaciones de amplitud los resultados obtenidos para las seis grabaciones se mantuvieron dentro de los rangos típicos de voces normales:
+
+Jitter relativo: menor al 1% en la mayoría de los casos.
+Shimmer relativo: entre 2% y 4%, dentro del rango esperado para voces no patológicas.
+
+En general, las voces femeninas mostraron mayor variabilidad en amplitud en el shimmer mientras que las masculinas presentaron mayor estabilidad periódica menor jitte.
+
+
 # 7. Conclusiones.
+Las voces femeninas presentan una frecuencia fundamental significativamente mayor que las masculinas.
+La Transformada de Fourier permitió evidenciar diferencias claras en el espectro las mujeres concentran energía en frecuencias altas mientras que los hombres lo hacen en bajas frecuencias.
+El filtrado pasabanda FIR fue efectivo para aislar las frecuencias vocales principales y reducir ruido ambiental mejorando la calidad de las características de la señal.
+En términos generales estos parámetros son útiles para el diagnóstico temprano.
+El análisis espectral confirma que las diferencias de género en la voz se reflejan directamente en la estructura de frecuencias pudiendo ser cuantificadas mediante herramientas de procesamiento digital de señales.
+
 # 8. Aplicaciones biomédicas.
