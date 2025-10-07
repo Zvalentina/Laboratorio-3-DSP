@@ -75,6 +75,9 @@ Se analizaron seis señales de voz (tres femeninas y tres masculinas) grabadas e
 Las gráficas en el dominio de la frecuencia mostraron una distribución característica entre los dos grupos:
 Las voces femeninas presentaron frecuencias fundamentales  más altas situadas entre 180 Hz y 250 Hz lo que se muestra en un timbre más agudo las voces masculinas mostraron un promedio entre 90 Hz y 140 Hz evidenciando un espectro más concentrado en bajas frecuencias lo cual se asocia a un tono más grave el cálculo de la frecuencia media y el brillo permitió identificar que las señales femeninas poseen una mayor energía  por encima de los 1500 Hz mientras que las masculinas concentran la energía por debajo de este rango la energía totalvarió ligeramente entre sujetos influenciada por el volumen y la distancia al micrófono pero sin alterar las tendencias espectrales observadas.
 
+
+
+
 **Filtrado pasabanda FIR**
 Se implementó un filtro FIR pasabanda con las siguientes bandas
 Mujeres: 150–500 Hz  Hombres: 80–400 Hz.
