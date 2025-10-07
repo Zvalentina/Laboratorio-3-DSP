@@ -77,39 +77,49 @@ Las voces femeninas presentaron frecuencias fundamentales  más altas situadas e
 
 **Mujer 1:**
 
-<img width="780" height="298" alt="image" src="https://github.com/user-attachments/assets/e519b8c8-83c9-445f-9466-7aafaf303ed8" />
-<img width="788" height="235" alt="image" src="https://github.com/user-attachments/assets/f8e7435f-9ae4-4618-a715-b964b0e6235a" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/e519b8c8-83c9-445f-9466-7aafaf303ed8" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/f8e7435f-9ae4-4618-a715-b964b0e6235a" />
 
 **Mujer 2:**
 
-<img width="787" height="298" alt="image" src="https://github.com/user-attachments/assets/f6c8eb78-cff6-46c0-8e1b-cdb88fbc7bf5" />
-<img width="783" height="230" alt="image" src="https://github.com/user-attachments/assets/bf14318b-42f5-45c4-a3da-56cd8f27c580" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/f6c8eb78-cff6-46c0-8e1b-cdb88fbc7bf5" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/bf14318b-42f5-45c4-a3da-56cd8f27c580" />
 
 **Mujer 3:**
 
-<img width="782" height="296" alt="image" src="https://github.com/user-attachments/assets/33210b1b-3d48-4eba-8461-1cb2a382dc34" />
-<img width="787" height="232" alt="image" src="https://github.com/user-attachments/assets/54d39864-b7b6-417d-9809-642d7beb1d5d" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/33210b1b-3d48-4eba-8461-1cb2a382dc34" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/54d39864-b7b6-417d-9809-642d7beb1d5d" />
 
 **Hombre 1:**
 
-<img width="786" height="296" alt="image" src="https://github.com/user-attachments/assets/7127f185-547a-41ae-bc68-57ee1dc61efe" />
-<img width="785" height="239" alt="image" src="https://github.com/user-attachments/assets/24abb1e0-582c-499f-9d74-5bdabe3013be" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/7127f185-547a-41ae-bc68-57ee1dc61efe" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/24abb1e0-582c-499f-9d74-5bdabe3013be" />
 
 **Hombre 2:**
 
-<img width="786" height="299" alt="image" src="https://github.com/user-attachments/assets/8c4c2453-77c7-48ff-bf3a-dcae6f6af8b4" />
-<img width="789" height="235" alt="image" src="https://github.com/user-attachments/assets/de6fadcb-d792-4e7b-b947-8daaee25ff0d" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/8c4c2453-77c7-48ff-bf3a-dcae6f6af8b4" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/de6fadcb-d792-4e7b-b947-8daaee25ff0d" />
 
 **Hombre 3:**
 
-<img width="782" height="299" alt="image" src="https://github.com/user-attachments/assets/6bcf1f43-17ee-48b2-b1bb-7997aade6578" />
-<img width="783" height="228" alt="image" src="https://github.com/user-attachments/assets/4fc3fa18-52ea-476d-aeaa-6682cfa5edb5" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/6bcf1f43-17ee-48b2-b1bb-7997aade6578" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/4fc3fa18-52ea-476d-aeaa-6682cfa5edb5" />
 
 
 **Filtrado pasabanda FIR**
 Se implementó un filtro FIR pasabanda con las siguientes bandas
 Mujeres: 150–500 Hz  Hombres: 80–400 Hz.
 El filtrado permitió eliminar el ruido de baja y alta frecuencia manteniendo únicamente la banda donde se concentra la voz las señales filtradas mostraron una reducción notable de interferencias y un contorno de onda más regular lo que facilita la detección de picos y cruces por cero en etapas posteriores (Jitter y Shimmer).
+
+**Filtro para mujer 1:**
+
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/d9457608-f3f2-4e21-a4c5-a5a4b88aabc4" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/901aed34-d081-4f6e-b5a5-6fc202f0bb3c" />
+
+**Filtro para hombre 1:**
+
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/dfaa10f5-d4a7-44bf-8527-76e9bbc28687" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/5615ebfd-ef28-4586-be62-f3c5ba3a399a" />
 
 **Medición de Jitter y Shimmer**
 El Jitter mide la variación en la frecuencia fundamental entre ciclos consecutivos mientras que el Shimmer cuantifica las variaciones de amplitud los resultados obtenidos para las seis grabaciones se mantuvieron dentro de los rangos típicos de voces normales:
