@@ -75,7 +75,35 @@ Se analizaron seis señales de voz (tres femeninas y tres masculinas) grabadas e
 Las gráficas en el dominio de la frecuencia mostraron una distribución característica entre los dos grupos:
 Las voces femeninas presentaron frecuencias fundamentales  más altas situadas entre 180 Hz y 250 Hz lo que se muestra en un timbre más agudo las voces masculinas mostraron un promedio entre 90 Hz y 140 Hz evidenciando un espectro más concentrado en bajas frecuencias lo cual se asocia a un tono más grave el cálculo de la frecuencia media y el brillo permitió identificar que las señales femeninas poseen una mayor energía  por encima de los 1500 Hz mientras que las masculinas concentran la energía por debajo de este rango la energía totalvarió ligeramente entre sujetos influenciada por el volumen y la distancia al micrófono pero sin alterar las tendencias espectrales observadas.
 
+**Mujer 1:**
 
+<img width="780" height="298" alt="image" src="https://github.com/user-attachments/assets/e519b8c8-83c9-445f-9466-7aafaf303ed8" />
+<img width="788" height="235" alt="image" src="https://github.com/user-attachments/assets/f8e7435f-9ae4-4618-a715-b964b0e6235a" />
+
+**Mujer 2:**
+
+<img width="787" height="298" alt="image" src="https://github.com/user-attachments/assets/f6c8eb78-cff6-46c0-8e1b-cdb88fbc7bf5" />
+<img width="783" height="230" alt="image" src="https://github.com/user-attachments/assets/bf14318b-42f5-45c4-a3da-56cd8f27c580" />
+
+**Mujer 3:**
+
+<img width="782" height="296" alt="image" src="https://github.com/user-attachments/assets/33210b1b-3d48-4eba-8461-1cb2a382dc34" />
+<img width="787" height="232" alt="image" src="https://github.com/user-attachments/assets/54d39864-b7b6-417d-9809-642d7beb1d5d" />
+
+**Hombre 1:**
+
+<img width="786" height="296" alt="image" src="https://github.com/user-attachments/assets/7127f185-547a-41ae-bc68-57ee1dc61efe" />
+<img width="785" height="239" alt="image" src="https://github.com/user-attachments/assets/24abb1e0-582c-499f-9d74-5bdabe3013be" />
+
+**Hombre 2:**
+
+<img width="786" height="299" alt="image" src="https://github.com/user-attachments/assets/8c4c2453-77c7-48ff-bf3a-dcae6f6af8b4" />
+<img width="789" height="235" alt="image" src="https://github.com/user-attachments/assets/de6fadcb-d792-4e7b-b947-8daaee25ff0d" />
+
+**Hombre 3:**
+
+<img width="782" height="299" alt="image" src="https://github.com/user-attachments/assets/6bcf1f43-17ee-48b2-b1bb-7997aade6578" />
+<img width="783" height="228" alt="image" src="https://github.com/user-attachments/assets/4fc3fa18-52ea-476d-aeaa-6682cfa5edb5" />
 
 
 **Filtrado pasabanda FIR**
