@@ -44,7 +44,7 @@ En la parte B se implemento un algoritmo para el filtrado de seañles de voz pre
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/7fe1976e-59ab-4eb6-8417-e0c83c50afcf" />
 
 # 4.3. Diagrama de flujo – Parte B: Medición de Jitter y Shimmer
-En la parte B se desarrollo en un algoritmo la medición de los parametros de estabilidad de voz espicificando los fenómenos de Jiter y Shimmer lo cuales cuantifican las variaciones en frecuencia,el procediemineto se presenta en el siguiente diagrama de flujo:
+En la parte B se desarrollo en un algoritmo la medición de los parametros de estabilidad de voz espicificando los fenómenos de Jitter y Shimmer lo cuales cuantifican las variaciones en frecuencia,el procediemineto se presenta en el siguiente diagrama de flujo:
 <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/359a4591-5f0e-44d2-9335-f2d7ae40e33a" />
 
 # 5. Adquisicón de la señal.
