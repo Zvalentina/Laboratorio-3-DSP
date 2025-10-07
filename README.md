@@ -35,6 +35,18 @@ La presente práctica se hizo empleando técnicas como el cálculo de la transfo
 **Medición de Shimmer:** Este tipo de operaciones sirve para identificar y cuantificar las variaciones en la amplitud de la señal de la voz, siendo importante para diagnosticar patologías vocales, como por ejemplo que ellas no se juntan correctamente. El aumento en la medición de Shimmer puede suponer una voz áspera o temblorosa.
 
 # 4. Diagramas de flujo.
+# 4.1. Diagrama de flujo – Parte A: Adquisición de las señales de voz
+En la parte A se implemeto un algoritmo para analizar y caracterizar señales de voz a partir de grabaciones realizadas por 6 personas (3 mujeres y 3 hombres). el procediemineto se presenta en el siguiente diagrama de flujo:
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/a00f2014-3607-41a0-9427-cdf52a4c8087" />
+
+# 4.2. Diagrama de flujo – Parte B: filtro Pasa Banda 
+En la parte B se implemento un algoritmo para el filtrado de seañles de voz previamnete grabadas, con el proposito de eliminar componentes de ruido y conservar únicamente las frecuencias propias de la voz, el procediemineto se presenta en el siguiente diagrama de flujo:
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/7fe1976e-59ab-4eb6-8417-e0c83c50afcf" />
+
+# 4.3. Diagrama de flujo – Parte B: Medición de Jitter y Shimmer
+En la parte B se desarrollo en un algoritmo la medición de los parametros de estabilidad de voz espicificando los fenómenos de Jitter y Shimmer lo cuales cuantifican las variaciones en frecuencia,el procediemineto se presenta en el siguiente diagrama de flujo:
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/359a4591-5f0e-44d2-9335-f2d7ae40e33a" />
+
 # 5. Adquisicón de la señal.
 Para adquirir las señales de la voz, se hizo mediante la grabación de un audio de voz de aproximadamente 5 segundos y se guardo en un formato .wav (Waveform Audio File Format), el cual es un formato de audio digital para almacenar sonido. Seguido de esto se importó el archivo en python para visualizar la señal de la voz.
 
