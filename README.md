@@ -62,6 +62,8 @@ El Shimmer relativo (%) fue más alto en las mujeres (≈ 3–4%) que en los hom
 
 Estos resultados son consistentes con estudios fisiológicos que indican que las mujeres tienden a presentar mayor variabilidad acústica debido a diferencias anatómicas y hormonales.
 
+El análisis comparativo también demuestra la utilidad biomédica de los parámetros Jitter y Shimmer ya que variaciones elevadas en estos valores podrían indicar trastornos  o lesiones en las cuerdas vocales en condiciones normales se espera que el jitter relativo sea menor al 1% y el shimmer menor al 5% tal como se observó en las grabaciones analizadas lo que sugiere voces saludables y estables.
+
 **Interpretación general**
 En conjunto las voces femeninas presentan mayor frecuencia fundamental y brillo menor estabilidad de amplitud y frecuencia y espectros  en armónicos altos y en las voces masculinas en cambio tenen frecuencias más bajas menor brillo y una mayor estabilidad temporal lo cual se traduce en un timbre más uniforme.
 
